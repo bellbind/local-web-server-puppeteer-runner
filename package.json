@@ -1,0 +1,14 @@
+{
+  "name": "local-web-server-puppeteer-runner",
+  "description": "",
+  "license": "GPL-3.0-or-later",
+  "type": "module",
+  "main": "runner.js",
+  "engines": {
+    "node": ">=13.2.0"
+  },
+  "dependencies": {
+    "local-web-server": "*",
+    "puppeteer": "*"
+  }
+}
