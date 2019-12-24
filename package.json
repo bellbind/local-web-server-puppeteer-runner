@@ -1,7 +1,11 @@
 {
   "name": "local-web-server-puppeteer-runner",
-  "description": "",
+  "description": "web page runner with local-web-server and puppeteer",
   "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bellbind/local-web-server-puppeteer-runner.git"
+  },
   "type": "module",
   "main": "runner.js",
   "engines": {
@@ -10,5 +14,8 @@
   "dependencies": {
     "local-web-server": "*",
     "puppeteer": "*"
+  },
+  "scripts": {
+    "test": "node test/symlinks/site/run.js"
   }
 }
